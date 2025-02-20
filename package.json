@@ -1,0 +1,17 @@
+{
+  "name": "ip-address-pinging",
+  "version": "1.0.0",
+  "description": "multi ip address pinging",
+  "main": "multi_ping.js",
+  "scripts": {
+    "test": "tsc multi_ping.ts && node multi_ping.js"
+  },
+  "author": "Cybra",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.9.4"
+  },
+  "include": [
+    "multi_ping.js"
+  ]
+}
